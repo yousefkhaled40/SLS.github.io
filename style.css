@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 0.7rem;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+}
+
+.top-bar{
+    background-color: #19376D;
+    color: white;
+    padding: 40px 0;
+    position: relative;
+}
+
+.school-name{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    left: 70px;
+    font-size: 1.5rem;
+}
+
+.bar-info{
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 700px;
+    margin: 0 10px;
+}
+
+.bar-info:hover{
+    color: #F2CD5C;
+    text-decoration: none;
+}
+
+.top-container{
+    text-align: center;
+    background-color: #13005A;
+    padding: 50px;
+}
+
+.class-img{
+    width: 70rem;
+    margin: 10px auto 10px;
+    opacity: 0.6;
+    border-radius: 1px;
+    
+}
+
+.btn {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background: #F7DB6A;
+    background-image: -webkit-linear-gradient(top, #F7DB6A, #F7DB6A);
+    background-image: -moz-linear-gradient(top, #F7DB6A, #F7DB6A);
+    background-image: -ms-linear-gradient(top, #F7DB6A, #F7DB6A);
+    background-image: -o-linear-gradient(top, #F7DB6A, #F7DB6A);
+    background-image: linear-gradient(to bottom, #F7DB6A, #F7DB6A);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .btn:hover {
+    background: #F2921D;
+    background-image: -webkit-linear-gradient(top, #F2921D, #F2921D);
+    background-image: -moz-linear-gradient(top, #F2921D, #F2921D);
+    background-image: -ms-linear-gradient(top, #F2921D, #F2921D);
+    background-image: -o-linear-gradient(top, #F2921D, #F2921D);
+    background-image: linear-gradient(to bottom, #F2921D, #F2921D);
+    text-decoration: none;
+  }
+
+.top-container:hover .class-img {
+    opacity: 0.3;
+}
+  
+.top-container:hover .btn {
+    opacity: 1;
+}
+
+.bottom-container{
+    text-align: center;
+    background-color: #19376D;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
